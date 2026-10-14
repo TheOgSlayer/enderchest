@@ -1,0 +1,9 @@
+name: BigEnderChest
+version: 1.0.0
+main: dev.bigenderchest.BigEnderChest
+api-version: '26.2'
+description: Doubles the ender chest to 54 slots. No commands.
+permissions:
+  bigenderchest.bypass:
+    description: Allows using /ec style commands even when they are blocked
+    default: false

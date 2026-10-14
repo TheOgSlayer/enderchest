@@ -1,0 +1,17 @@
+# Block commands that open the ender chest remotely (for example EssentialsX /ec),
+# so the ender chest can only be opened by right-clicking an ender chest block.
+block-enderchest-commands: true
+
+# Commands to block (without the slash). Namespaced forms like essentials:ec are blocked too.
+blocked-commands:
+  - ec
+  - echest
+  - enderchest
+  - eec
+  - eechest
+  - eenderchest
+  - endersee
+  - eendersee
+
+# Message shown when a blocked command is used (& color codes allowed)
+blocked-message: "&cYou can only open your ender chest by right-clicking an ender chest block."
